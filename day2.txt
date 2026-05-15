@@ -1,0 +1,90 @@
+
+ # arithmetic
+ 
+print(4%5 ==0)
+print(2*3)
+print(10**2)
+print(10/2)
+print(35.20//5)
+
+#assignment
+
+count=0
+for j in range(1,10):
+    count +=1
+print(count)
+a=2
+b=5
+print(a+b)
+
+#identity
+
+
+a=[1,2]
+b=[1,2]
+c=a
+print(type(a))
+print(a==b)
+print(id(a))
+print(id(b))
+print(id(c))
+print(a is c)
+print(a is not  b)
+
+#logical
+
+a=5
+if a%3==0 and a% 5==0 :
+    print("true")
+
+    a=5
+if a%3==0 or a% 5==0 :
+    print("true")
+    
+#membership
+a=2
+b=[1,2,5]
+print(a in b)
+
+#bitwise
+
+print(5/3)
+
+#strings
+
+a=9 # immutable
+b=7
+print(a+b)
+
+a=9 # immutable
+b=7.0
+print(a+b)
+
+
+#methods
+
+
+any ="python is a languages"
+print(any.replace ("python","java"))
+print(any)
+print(any.split())
+print(any.split("is"))
+
+#length
+
+print(len(any))
+
+#slicing
+
+any="python is a language"
+print(any[3:10])
+'''
+#index:used get substing present in that index position..
+synax:variable name[index position]
+'''
+any="python is programming"
+print(any[7])
+print(any.index("is"))
+
+
+    
