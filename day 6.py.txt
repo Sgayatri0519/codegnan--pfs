@@ -1,0 +1,82 @@
+'''#type conversion:
+#int
+
+an=78
+us=str(an)
+om=float(an)
+print(om)
+print(type(om))
+print(type(us))
+
+#
+
+
+an="python"
+us=int(an)
+print(type(us))
+
+#list
+
+
+
+an ="90"
+ear=list(an)
+print(ear)
+print(type(ear))
+
+#tuple
+
+
+an ="90"
+ear=list(an)
+print(ear)
+print(type(ear))
+print(tuple(an))
+print(con)
+
+#float
+
+bus=9020
+print(int(bus))
+print(type(str(bus)))
+
+#example
+
+any=(6,7)
+print(str(any))
+print(tuple(any))
+
+#example
+
+
+how=(6,3)
+print(str(how))
+print(tuple(how))
+
+#int as a user input
+
+num=int(input("enter a number:"))
+print(79+num)
+
+
+#str as a user input
+
+some=input("write a text:")
+print(some)
+
+
+#list
+
+any=list(map(int,input("enter a number:").split()))
+print(any)
+
+#tuple
+
+any=tuple(map(int,input("enter a number:").split()))
+print(any)
+
+#eval
+'''
+num=eval(input("enter:"))
+print(type(num))
+
