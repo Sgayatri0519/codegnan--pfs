@@ -1,0 +1,102 @@
+#condition statements:
+
+#if statement:to check wheather the the sttement is true or not
+
+#if else :else in statement,incase the condition becomes false then it wil enter into flow -back (else),it will excute whatever inside it
+
+num=6
+if num %2==0:
+  print("odd")
+else:  
+  print("even")
+
+
+# program of even or odd numbers
+
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+
+#program of leap year
+
+year = int(input("Enter a year: "))
+
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
+
+#finding the greater number
+
+num=1
+if num>0-9:
+  print(f"{num} is a greater  number")
+else:
+    print(f"{num} is a smaller number")
+
+#finding the vowels
+
+vowel_="a"
+if vowel_ in "aeiou":
+   print(f"{vowel} is a consonants")
+else:
+    print(f"vowel is not consonants")
+
+
+#program of postive and negative
+
+num = 18
+if num>=0:
+    print("this is a postive number ")
+else:
+    print("this is not a negative number")
+          
+#program of vote
+
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote!")
+else:
+    print(" you are too young to vote.")
+
+#finding the divisbility
+
+num=75
+if num%3==0 and num %5==0:
+   print(f"{num} is divisible by 3 and 5")
+else:
+   print(f"{num} not")
+
+#program of traffic rules
+
+light_color = input("Enter the traffic light color (red, yellow, green): ").lower()
+
+if light_color == "red":
+    print("STOP! Your life is precious.")
+elif light_color == "yellow":
+    print("SLOW DOWN and prepare to stop.")
+elif light_color == "green":
+    print("GO! Thank you for being patient.")
+else:
+    print("Invalid color entered. Please enter red, yellow, or green.")
+
+          
+          
+          
+          
+          
+
+          
+
+          
+
+    
+
+  
+    
+
+     
+
