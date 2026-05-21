@@ -1,0 +1,76 @@
+'''
+#sets:a set is  a collection of unique and unordered elements
+# duplicate values are not allowed
+#items are not stored in index order
+#{}
+
+#methods:
+#union():it will give all the values from 2 sets together in once
+#syntax:variable_name.union(another var)
+
+any={1,2,3,4,5}
+an={68,64}
+print(any |an)
+print(any.union(an))
+
+#intersection():to get the common elements from both sets
+#syntax:variable_name.intersection(another var)
+
+
+any={1,2,3,4,5}
+an={7,26,3,19,8}
+print(any |an)
+print(any.intersection(an))
+
+
+#example1
+
+any={1,2,3,4,5}
+an={7,26,3,19,8}
+print(any and an)
+print(any.intersection(an))
+
+#difference():to get the difference values from the set
+#syntax:variable_name,differnce(another var)
+
+any={1,2,3,4,5}
+an={3,26,89}
+print(any - an)
+print(any.difference(any))
+
+#example2
+
+any={1,2,3,4,5,6,7}
+an={3,26,19,7,8}
+print(any - an)
+print(any.difference(any))
+
+#addd():to add new element into set
+#syntax:variable_name.add(element)
+
+any={1,2,3,4,5}
+any.add(41)
+print(any)
+
+#update():to add multile into set
+#syntax:variable_name.update([element])
+'''
+any={1,2,3,4,5}
+any.update([41,30])
+print(any)
+
+#
+any={1,2,3,4,5}
+print(min(any))
+print(sum(any))
+print(len(any))
+
+#remove:used to remove or delete element for the set but it  will not through error if the element is not in the set
+#syntax:variable_name.discard(element)
+
+any={6,7,8,9,10}
+any.remove(6)
+print(any)
+
+
+
