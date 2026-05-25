@@ -1,0 +1,93 @@
+#asser:this is debugging statements used to test whether  a condition is true
+'''
+num=10
+assert num>5
+print("true")
+
+age=19
+assert age>=18
+print("eligible")
+
+
+#functions:a function is a block of code which only execute when it is called functions.we can pass data,known as parameters into function.to advoid repeated lines in code.
+
+# def function_name(parameters):
+   
+
+num=10
+def even(num):
+    if num%2==0:
+        print(f"{num}even")
+    else:
+        print(f"{num} odd")
+num=(num)
+num=(101)
+
+#waay to pass arguments:
+#1.requred arguments:a function must be called the saame no off arguments
+
+num=10
+def even(num,num2,num3):
+   if num%2==0:
+       print(f"{num}even")
+   else:
+        print(f"{num} odd")
+num=(num)
+num=(101,90)
+'''
+#2.default arguments:by default,values is defined at parameters even the it will take from arguments
+
+def even(name="pandu",age=23,sai=21):
+    print(age)
+    print(name)
+    print(sai)
+even(name="pandu",age=23,sai=21)
+
+#keywords length arugments:we can send arguments with key=value syntax,by this the order of argument does not matter.
+
+def even(name="pandu",salary=23000,age=21):
+    print(age)
+    print(name)
+    print(salary)
+even(name="pandu",salary=23000,age=21)
+
+#variable length argument
+
+def even(*name):
+    print(name[2])
+even("pandu","pavan","gayathri","mani")
+
+name="sai"
+def even(any):
+    print(any)
+even(name)    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
