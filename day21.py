@@ -13,24 +13,24 @@ so.close()
 so=open('dm.txt','w')
 print(so.write('nxt will be java'))
 so.close()
+
 #program:
 with open('demo.txt','w') as so:
     print(so.write('java'))
 #methods:write()read(): this method can read entrire file chunk by chunk where we can specify the side
 #readline():can read only one line at a time in a file
-#readlines():it will read entrie file and gives in a list where each line is each index in the list
-so = open( 'demo.txt','r')
-any_.write('hello')
-with open('demo.txt','w'):
-any_.write("hello")
+with open('demo.txt', 'w') as any_:
+    any_.write("hello")
+
+
 #program
-any_=open('demo.txt','r')
-print(any_.read())
-any_.close()
+with open('demo.txt', 'r') as any_:
+    print(any_.readline())
+
 #program
-any_=open('demo.txt','r')
-print(any_readline())
-any_.close()
+with open("demo.txt", "r") as any_:
+    print(any_.readlines())
+
 #how to remove file
 import os
 
